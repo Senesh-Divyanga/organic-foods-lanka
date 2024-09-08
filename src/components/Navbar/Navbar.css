@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.header{
+    background-color: #2b9c2f;
+    justify-content: space-between;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.header .navbar span{
+    color: white;
+    font-size: 40px;
+    font-family: outfit;
+    font-weight: bold;
+    margin: 1px;
+}
+
+.header .navbar ul{
+    display: flex;
+}
+
+.header .navbar ul li{
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header .navbar ul li:hover{
+    background-color: rgba(42, 139, 65, 0.671);
+}
+
+.navbar-right img{
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.navbar-right img:hover{
+    transform: translateY(-1px);
+}
+
+.navbar-right button{
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+  
+.navbar-right button:hover{
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+  
