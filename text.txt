@@ -1,0 +1,44 @@
+<div>
+      <ul>
+        <li>
+          <Link to="products" smooth={true} duration={500}>
+            Go to Products
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={500}>
+            Go to About
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true} duration={500}>
+            Go to Contact
+          </Link>
+        </li>
+      </ul>
+
+      <Element name="products">
+        <Products />
+      </Element>
+
+      <Element name="about">
+        <About />
+      </Element>
+
+      <Element name="contact">
+        <Contact />
+      </Element>
+    </div>
+
+
+<Element name="products">
+        <Products />
+      </Element>
+
+      <Element name="about">
+        <About />
+      </Element>
+
+      <Element name="contact">
+        <Contact />
+      </Element>
